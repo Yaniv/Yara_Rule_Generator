@@ -1,0 +1,22 @@
+Ubuntu/Debian:
+
+sudo apt-get update
+sudo apt-get install yara
+
+Windows:
+
+Download YARA from GitHub releases.
+
+Add the binary to your PATH or place libyara.dll in the script directory.
+
+Alternatively, use Chocolatey:
+choco install yara
+
+pip3 install yara-python
+
+python3 yara_rule_generator.py
+
+Optional: Enable Hebrew Prompts:
+
+Edit yara_rule_generator.py and set:
+USE_HEBREW = True
